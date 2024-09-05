@@ -5,12 +5,14 @@ import Footer from './components/Footer';
 import Experience from './components/Experience';
 
 const App = () => {
+  console.log("deployed");
   return (
     <BrowserRouter>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/experience' element={<Experience/>}/>
+      
       </Routes>
       <Footer/>
     </BrowserRouter>
